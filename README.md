@@ -19,7 +19,8 @@ which reveals the characteristic spiral topology.
 
 Below is a generated simulation demonstrating the phase evolution of an optical vortex (OAM beam):
 
-<video src="optical_vortex_phase.mp4" controls></video>
+![Optical Vortex Phase Animation](optical_vortex_phase.mp4)
+
 
 
 ## Purpose
