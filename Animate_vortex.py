@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+from IPython.display import HTML
 
 x = np.linspace(-1, 1, 250)
 y = np.linspace(-1, 1, 250)
@@ -16,4 +17,5 @@ def update(frame):
     ax.axis("off")
 
 ani = FuncAnimation(fig, update, frames=120, interval=50)
-plt.show()
+
+HTML(ani.to_jshtml())
