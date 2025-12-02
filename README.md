@@ -15,6 +15,12 @@ which reveals the characteristic spiral topology.
 
 - `plot_vortex.py`
   - Generates a synthetic vortex phase plot using NumPy and Matplotlib.
+  - ## Optical Vortex Phase Animation
+
+Below is a generated simulation demonstrating the phase evolution of an optical vortex (OAM beam):
+
+<video src="optical_vortex_phase.mp4" controls></video>
+
 
 ## Purpose
 
